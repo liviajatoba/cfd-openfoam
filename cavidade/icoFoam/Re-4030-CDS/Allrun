@@ -1,0 +1,12 @@
+cd m01
+./Allrun
+cd ..
+cd m02 
+./Allrun
+cd ..
+cd m03 
+./Allrun
+cd ..
+cd conv-malha
+gnuplot *.plt
+
