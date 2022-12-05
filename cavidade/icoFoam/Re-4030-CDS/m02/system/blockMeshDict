@@ -16,16 +16,20 @@ FoamFile
 
 convertToMeters 1;
 
+L 0.1;   // comprimento em x
+D 0.1;   //comprimento em y
+S 0.01;  //comprimento em z
+
 vertices
 (
-    (0   0   0)		//vertice 0
-    (0.1 0   0)		//vertice 1
-    (0.1 0.1 0)		//vertice 2
-    (0   0.1 0)		//vertice 3
-    (0   0   0.01)	//vertice 4
-    (0.1 0   0.01)	//vertice 5
-    (0.1 0.1 0.01)	//vertice 6
-    (0   0.1 0.01)	//vertice 7
+    (0  0  0)		//vertice 0
+    ($L 0  0)		//vertice 1
+    ($L $D 0)		//vertice 2
+    (0  $D 0)		//vertice 3
+    (0  0  $S)		//vertice 4
+    ($L 0  $S)		//vertice 5
+    ($L $D $S)		//vertice 6
+    (0  $D $S)		//vertice 7
 );
 
 blocks
@@ -44,7 +48,7 @@ boundary
         type wall;
         faces
         (
-            (3 7 6 2)
+            (3 2 6 7)
         );
     }
     fixedWalls
@@ -52,9 +56,9 @@ boundary
         type wall;
         faces
         (
-            (0 4 7 3)
-            (2 6 5 1)
-            (1 5 4 0)
+            (0 3 7 4)
+            (1 5 6 2)
+            (0 4 5 1)
         );
     }
     frontAndBack
@@ -62,8 +66,8 @@ boundary
         type empty;
         faces
         (
-            (0 3 2 1)
-            (4 5 6 7)
+            (0 1 2 3)
+            (7 6 5 4)
         );
     }
 );
