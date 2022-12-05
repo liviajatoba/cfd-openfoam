@@ -1,0 +1,12 @@
+cd m01
+./Allclean
+cd ..
+cd m02 
+./Allclean
+cd ..
+cd m03 
+./Allclean
+cd ..
+cd conv-malha
+rm *.eps
+

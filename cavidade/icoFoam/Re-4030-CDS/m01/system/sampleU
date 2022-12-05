@@ -25,17 +25,17 @@ setFormat raw;
 
 sets
 (
-    linhaA
+    linhaH
     {
-        type            lineCell;
-        axis            distance;//x;
+        type            lineCellFace;
+        axis            x;
         start           (0    0.05  0.005);
         end             (0.1  0.05  0.005);
     }
-    linhaB
+    linhaV
     {
-        type            lineCell;
-        axis            distance;//y;
+        type            lineCellFace;
+        axis            y;
         start           (0.05 0   0.005);
         end             (0.05 0.1 0.005);
     }
