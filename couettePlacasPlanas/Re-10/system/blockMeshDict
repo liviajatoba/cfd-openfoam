@@ -15,7 +15,7 @@ FoamFile
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 convertToMeters 1;
-Lcanal 0.1;
+xCanal 0.1;
 hCanal 0.1;
 zCanal 0.01;
 nY	40;
@@ -23,12 +23,12 @@ nY	40;
 vertices
 (
     (0 		0   		0)		//v0
-    ($Lcanal 	0   		0)		//v1
-    ($Lcanal 	$hCanal 	0)		//v2
+    ($xCanal 	0   		0)		//v1
+    ($xCanal 	$hCanal 	0)		//v2
     (0 		$hCanal 	0)		//v3
     (0 		0   		$zCanal)	//v4
-    ($Lcanal 	0   		$zCanal)	//v5
-    ($Lcanal 	$hCanal 	$zCanal)	//v6
+    ($xCanal 	0   		$zCanal)	//v5
+    ($xCanal 	$hCanal 	$zCanal)	//v6
     (0 		$hCanal 	$zCanal)	//v7
 );
 
