@@ -55,7 +55,7 @@ functions
 
 	executeControl  writeTime;
 	writeControl    writeTime;
-        setFormat       vtk;		//raw
+        setFormat       vtk;		
 
         lifeTime        1000;
 	nSubCycle       5;
@@ -67,10 +67,10 @@ functions
         seedSampleSet
         {
             type        lineUniform;
-            axis        x;  		//distance;
+            axis        x;  		
             start       (0.1 0   0.005);
             end         (0   0.1 0.005);
-            nPoints     500;
+            nPoints     250;
         }
     }
 }
