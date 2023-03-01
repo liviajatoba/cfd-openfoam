@@ -1,0 +1,6 @@
+Os arquivos do diretório RE-10 foram testados com as seguintes distribuições do OpenFOAM (openfoam.org)
+	- openfoam7
+	- openfoam9
+
+Os arquivos do diretório RE-10-v10 foram testados com a distribuição (openfoam.org):
+	- openfoam10
