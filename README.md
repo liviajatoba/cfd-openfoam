@@ -6,4 +6,4 @@ O projeto tem como principal resultado a produção de material didático, em po
 
 Aviso legal:
 
-OpenFOAM® e OpenCFD® são marcas registradas por OpenCFD Limited, que produz o software OpenFOAM®. Todas as marcas registradas são de seus proprietários. Este documento não foi aprovado ou endossado por OpenCFD Limited, o produtor do software OpenFOAM\TM e detentor das marcas registradas OPENFOAM® and OpenCFD®.
+OpenFOAM® e OpenCFD® são marcas registradas por OpenCFD Limited, que produz o software OpenFOAM®. Todas as marcas registradas são de seus proprietários. Este repositório não foi aprovado ou endossado por OpenCFD Limited, o produtor do software OpenFOAM® e detentor das marcas registradas OPENFOAM® and OpenCFD®.
