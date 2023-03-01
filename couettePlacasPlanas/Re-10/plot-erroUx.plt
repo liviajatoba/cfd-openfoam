@@ -1,11 +1,15 @@
 reset
 
-set terminal postscript eps enhanced color"Times-Roman" 18
+#set terminal postscript eps enhanced color"Times-Roman" 18
+set term png
+
 set autoscale
 set lmargin 13
 set bmargin 4
 
-set output "erroUx.eps"
+#set output "erroUx.eps"
+set output "erroUx.png"
+
 set key left
 
 set xlabel"{/*1.5{/Italic y(m)}" offset 1,0
