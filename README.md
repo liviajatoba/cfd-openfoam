@@ -7,6 +7,8 @@ O projeto tem como principal resultado a produção de material didático, em po
 Aviso legal:OpenFOAM® e OpenCFD® são marcas registradas por OpenCFD Limited, que produz o software OpenFOAM®. Todas as marcas registradas são de seus proprietários. Este repositório não foi aprovado ou endossado por OpenCFD Limited, o produtor do software OpenFOAM® e detentor das marcas registradas OPENFOAM® and OpenCFD®.
 
 Comentários: os tutoriais seguem uma sequência didática e a seguinte ordem é sugerida:
+
 01: Escoamento Couette em placa plana 
+
 02: Escoamento laminar em uma cavidade
 
