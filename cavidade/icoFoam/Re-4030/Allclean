@@ -1,0 +1,6 @@
+cd m01
+./Allclean
+cd ..
+cd m02 
+./Allclean
+
