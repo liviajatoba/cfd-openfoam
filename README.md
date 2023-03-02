@@ -13,3 +13,15 @@ Os tutoriais seguem uma sequência didática e a seguinte ordem é sugerida:
 
 02: Escoamento laminar em uma cavidade
 
+
+_______________
+
+
+This repository is a part of the PRODOCÊNCIA-UERJ 2021 grant, entitled "Active Learning in Computational Fluid Dynamics" led by Prof. Lívia Flávia Carletti Jatobá (IPRJ/UERJ). The primary goal of the project is to create educational content, in Portuguese, as tutorials for various case studies using OpenFOAM®. The tutorial guide contains descriptive documentation for each case study and its corresponding repository with simulation files. All material is available under a CC BY-NC-SA 4.0 license.
+
+The tutorials follow a didactic sequence and the following order is suggested:
+
+01: Couette flow in flat plate
+
+02: Laminar flow in a cavity
+
