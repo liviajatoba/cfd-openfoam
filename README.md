@@ -1,4 +1,4 @@
-#Guia prático usando o OpenFOAM®
+Guia prático usando o OpenFOAM®
 
 Este repositorio é parte do projeto PRODOCÊNCIA-UERJ Edital 2021, sob título "Ensino Ativo em Dinâmica dos Fluidos Computacional", coordenado pela Profa. Livia Flavia Carletti Jatobá (IPRJ/UERJ).
 
