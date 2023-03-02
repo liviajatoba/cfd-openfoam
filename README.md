@@ -1,5 +1,3 @@
-# cfd-openfoam
-
 #Guia prático usando o OpenFOAM®
 
 Este repositorio é parte do projeto PRODOCÊNCIA-UERJ Edital 2021, sob título "Ensino Ativo em Dinâmica dos Fluidos Computacional", coordenado pela Profa. Livia Flavia Carletti Jatobá (IPRJ/UERJ).
@@ -23,7 +21,8 @@ This repository is a part of the PRODOCÊNCIA-UERJ 2021 grant, entitled "Active 
 
 The tutorials follow a didactic sequence and the following order is suggested:
 
-01: Couette flow in flat plate
+01: Couette flow between parallel plates
 
 02: Laminar flow in a cavity
 
+Legal notice: OpenFOAM® and OpenCFD® are registered trademarks of OpenCFD Limited, which produces the OpenFOAM® software. All trademarks belong to their owners. This repository has not been approved or endorsed by OpenCFD Limited, the producer of the OpenFOAM® software and holder of the OPENFOAM® and OpenCFD® trademarks.
