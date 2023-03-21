@@ -9,7 +9,7 @@ Aviso legal:OpenFOAM® e OpenCFD® são marcas registradas por OpenCFD Limited, 
 
 Os tutoriais seguem uma sequência didática e a seguinte ordem é sugerida:
 
-01: Escoamento Couette em placa plana 
+01: Escoamento Couette entre placas planas
 
 02: Escoamento laminar em uma cavidade
 
