@@ -27,7 +27,7 @@ boundaryField
     }
     out
     {
-	    type            fixedValue;
+	type            fixedValue;
         value           uniform 0;
     }
     cylinder
