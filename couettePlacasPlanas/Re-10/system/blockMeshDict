@@ -18,7 +18,7 @@ convertToMeters 1;
 xCanal 0.1;
 hCanal 0.1;
 zCanal 0.01;
-nY	40;
+nY	10;
 
 vertices
 (
