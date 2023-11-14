@@ -24,11 +24,13 @@ solvers
         tolerance       1e-07;
         relTol          0.01;
     }
+
     pFinal
     {
         $p;
         relTol          0;
     }
+
     U
     {
         solver          smoothSolver;

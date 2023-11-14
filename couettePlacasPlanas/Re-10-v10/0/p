@@ -23,11 +23,11 @@ boundaryField
 {
     xNeg
     {
-        type            zeroGradient;
+        type            cyclic;
     }
     xPos
     {
-        type            zeroGradient;
+        type            cyclic;
     }
     yPos
     {

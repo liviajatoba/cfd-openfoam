@@ -25,6 +25,6 @@ a = V/h
 f(x) = a*x
 
 
-plot "postProcessing/sampleU/0.5/linhaA.xy"  using ($1):(abs($2-f($1))*100/abs(f($1))) title"{0.5s}" with lines lt 2 lw 2.5, \
-     "postProcessing/sampleU/0.3/linhaA.xy"  using ($1):(abs($2-f($1))*100/abs(f($1))) title"{0.4s}" with lines lt 3 lw 2.5, \
+plot "postProcessing/sampleU/0.6/linhaA.xy"  using ($1):(abs($2-f($1))*100/abs(f($1))) title"{0.6s}" with lines lt 2 lw 2.5, \
+     "postProcessing/sampleU/0.4/linhaA.xy"  using ($1):(abs($2-f($1))*100/abs(f($1))) title"{0.4s}" with lines lt 3 lw 2.5, \
      "postProcessing/sampleU/0.2/linhaA.xy"  using ($1):(abs($2-f($1))*100/abs(f($1))) title"{0.2s}" with lines lt 4 lw 2.5

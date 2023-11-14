@@ -15,22 +15,21 @@ FoamFile
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 convertToMeters 1;
-
-hCanal 0.1;
-xCanal 0.01;
+xCanal 0.1;
+dCanal 0.1;
 zCanal 0.01;
-nY	10;
+nY	5;
 
 vertices
 (
     (0 		0   		0)		//v0
     ($xCanal 	0   		0)		//v1
-    ($xCanal 	$hCanal 	0)		//v2
-    (0 		$hCanal 	0)		//v3
+    ($xCanal 	$dCanal 	0)		//v2
+    (0 		$dCanal 	0)		//v3
     (0 		0   		$zCanal)	//v4
     ($xCanal 	0   		$zCanal)	//v5
-    ($xCanal 	$hCanal 	$zCanal)	//v6
-    (0 		$hCanal 	$zCanal)	//v7
+    ($xCanal 	$dCanal 	$zCanal)	//v6
+    (0 		$dCanal 	$zCanal)	//v7
 );
 
 blocks
@@ -40,6 +39,24 @@ blocks
 
 boundary
 (
+    xNeg
+    {
+        type cyclic;
+        neighbourPatch xPos;
+        faces
+        (
+            (0 3 7 4)
+        );
+    }
+    xPos
+    {
+        type cyclic;
+        neighbourPatch xNeg;
+        faces
+        (
+            (5 6 2 1)
+        );
+    }
     yPos
     {
         type wall;
@@ -54,22 +71,6 @@ boundary
         faces
         (
             (4 5 1 0)
-        );
-    }
-    xPos
-    {
-        type patch;
-        faces
-        (
-            (5 6 2 1)
-        );
-    }
-    xNeg
-    {
-        type patch;
-        faces
-        (
-            (0 3 7 4)
         );
     }
     zPlan
