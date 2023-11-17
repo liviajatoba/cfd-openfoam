@@ -15,9 +15,9 @@ FoamFile
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 convertToMeters 1;
-xCanal 0.1;
+xCanal 0.4;
 dCanal 0.1;
-zCanal 0.01;
+zCanal 0.1;
 nY	5;
 
 vertices
