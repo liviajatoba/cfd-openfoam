@@ -7,18 +7,22 @@
 \*---------------------------------------------------------------------------*/
 FoamFile
 {
-    version     2.0;
+    version     10.0;
     format      ascii;
     class       dictionary;
     object      blockMeshDict;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-convertToMeters 1;
+
 xCanal 0.4;
 dCanal 0.1;
 zCanal 0.1;
 nY	5;
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+convertToMeters 1;
 
 vertices
 (
@@ -45,7 +49,7 @@ boundary
         neighbourPatch xPos;
         faces
         (
-            (0 3 7 4)
+            (0 4 7 3)
         );
     }
     xPos
@@ -54,7 +58,7 @@ boundary
         neighbourPatch xNeg;
         faces
         (
-            (5 6 2 1)
+            (1 2 6 5)
         );
     }
     yPos
@@ -62,7 +66,7 @@ boundary
         type wall;
         faces
         (
-            (3 2 6 7)
+            (7 6 2 3)
         );
     }
     yNeg
@@ -70,7 +74,7 @@ boundary
         type wall;
         faces
         (
-            (4 5 1 0)
+            (0 1 5 4)
         );
     }
     zPlan
@@ -78,8 +82,8 @@ boundary
         type empty;
         faces
         (
-            (0 1 2 3)
-            (7 6 5 4)
+            (0 3 2 1)
+            (4 5 6 7)
         );
     }
 );

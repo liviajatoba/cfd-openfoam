@@ -17,20 +17,13 @@ FoamFile
 
 solvers
 {
-    p
+    pFinal
     {
         solver          PCG;
         preconditioner  DIC;
         tolerance       1e-07;
         relTol          0.01;
     }
-
-    pFinal
-    {
-        $p;
-        relTol          0;
-    }
-
     U
     {
         solver          smoothSolver;
@@ -42,8 +35,6 @@ solvers
 
 PISO
 {
-    nCorrectors     1;
-    nNonOrthogonalCorrectors 0;
     pRefCell        0;
     pRefValue       0;
 }
