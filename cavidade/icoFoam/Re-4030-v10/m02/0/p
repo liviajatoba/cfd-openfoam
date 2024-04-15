@@ -20,17 +20,17 @@ internalField   uniform 0;
 
 boundaryField
 {
-    movingWall
+    topo
     {
         type            zeroGradient;
     }
 
-    fixedWalls
+    paredes
     {
         type            zeroGradient;
     }
 
-    frontAndBack
+    zPlanos
     {
         type            empty;
     }
