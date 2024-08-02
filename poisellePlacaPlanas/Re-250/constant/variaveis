@@ -1,0 +1,29 @@
+//Distancia entre as placas em y
+hCanal 0.01;
+
+//Numero de divisões y
+nY	20;
+
+//Comprimento do canal em x
+LCanal 0.05;
+
+//Numero de divisões em x
+nX	100;
+
+//Seção do canal em z
+zCanal 0.01;
+meiozCanal #calc "0.5*$zCanal";
+
+//Pontos para verificar perfil desenvolvido
+umLCanal #calc "0.1*$LCanal";
+doisLCanal #calc "0.2*$LCanal";
+tresLCanal #calc "0.3*$LCanal";
+finalLCanal #calc "0.9*$LCanal";
+
+
+
+
+
+
+
+
