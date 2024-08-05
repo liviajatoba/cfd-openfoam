@@ -1,0 +1,25 @@
+#!/bin/sh
+cd ${0%/*} || exit 1    # Run from this directory
+
+# Source tutorial run functions
+. $WM_PROJECT_DIR/bin/tools/RunFunctions
+
+runApplication blockMesh
+runApplication $(getApplication)
+foamLog log.simpleFoam
+postProcess -func sampleU
+postProcess -func sampleUmax
+
+gnuplot *.plt
+cd graficos
+python3 Perfil_Ux.py
+python3 Pressao.py
+python3 Umax.py
+cd ..
+
+#wmake validation/WatersKing
+#runApplication WatersKing
+
+#( cd validation && ./createGraph )
+
+#------------------------------------------------------------------------------
