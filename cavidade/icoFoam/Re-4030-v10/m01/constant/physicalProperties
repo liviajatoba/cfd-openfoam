@@ -19,6 +19,6 @@ FoamFile
 transportModel  Newtonian;
 
 //Modifique o valor da viscosidade cinematica de acordo com o seu numero de Reynolds
-nu              [0 2 -1 0 0 0 0] 2.5e-05;
+nu              [0 2 -1 0 0 0 0] 2.481e-05;
 
 // ************************************************************************* //
