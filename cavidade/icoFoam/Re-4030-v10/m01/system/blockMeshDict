@@ -45,7 +45,7 @@ boundary
 (
     fSuperior
     {
-        type wall;
+        type patch;
         faces
         (
             (3 7 6 2)
