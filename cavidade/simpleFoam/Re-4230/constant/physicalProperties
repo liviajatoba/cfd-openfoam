@@ -1,0 +1,35 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  4.1                                   |
+|   \\  /    A nd           | Web:      www.OpenFOAM.org                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      transportProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+//Selecione o modelo de fluido Newtoniano
+transportModel  Newtonian;
+
+//Modifique o valor da viscosidade cinematica de acordo com o seu numero de Reynolds
+nu              [0 2 -1 0 0 0 0] 2.364e-06; 
+
+// ReD = 4230
+// D = 0.05 m
+// Ux = 0.2
+
+/*
+Ux/Ue não é uniforme ao longo da fronteira superior - aproximado para 0.2 m/s
+0.07960444993819532	
+0.14857849196538941	
+0.18714462299134738	
+0.15302843016069223	
+*/
+// ************************************************************************* //
