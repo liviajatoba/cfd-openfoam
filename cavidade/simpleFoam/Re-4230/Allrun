@@ -15,6 +15,11 @@ foamLog log
 echo '\033[1;92mPós-processamento do perfil de velocidade com o postProcess.\033[0m\n'
 postProcess -func sampleU
 
+echo '\033[1;92mEdita o arquivo de U em probes.\033[0m\n'
+sed -i 's/(//g' postProcessing/probes/0/U
+sed -i 's/)//g' postProcessing/probes/0/U
+gnuplot *.plt
+
 echo '\033[1;92mGráficos criados usando o gnuplot.\033[0m\n'
 gnuplot *.plt
 
