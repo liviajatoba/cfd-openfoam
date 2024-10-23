@@ -8,7 +8,7 @@ set autoscale
 set lmargin 13
 set bmargin 4
 
-set output "Fig7b-Ux-LB.png"
+set output "LinhaB-Ux.png"
 
 set key center
 
@@ -18,7 +18,7 @@ set xlabel"{/*1.5{/Italic U_x (m/s) } }" offset 0,0
 set yrange[-0.05:0]
 
 
-plot "postProcessing/sampleU/2000/LB.xy"  using ($2):($1) title "{num}" with lines lt 1 lw 2.5, \
+plot "postProcessing/sampleU/1000/LinhaB.xy"  using ($2):($1) title "{num}" with lines lt 1 lw 2.5, \
      "dados/LB_Ux_0.048m.dat"  using ($1):($2) title "{Ref.}" with lines lt 2 lw 2.5
 
 

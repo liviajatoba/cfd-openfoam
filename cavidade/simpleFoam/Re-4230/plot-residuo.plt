@@ -11,7 +11,7 @@ set bmargin 4
 set output "residuals.png"
 
 set ylabel"{/*1.5{/Italic residuo inicial}" offset 1,0
-set xlabel"{/*1.5{/Italic tempo (s)} }" offset 0,0
+set xlabel"{/*1.5{/Italic iter} }" offset 0,0
 
 set logscale y
 set format y "%.1e"

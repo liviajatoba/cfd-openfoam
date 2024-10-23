@@ -20,9 +20,9 @@ solvers
     p
     {
         solver          GAMG;
-        tolerance       1e-06;
-        relTol          0.1;
         smoother        GaussSeidel;
+        tolerance       1e-06;
+        relTol          0;
     }
     U
     {
