@@ -1,7 +1,20 @@
-Bolsista: Sthefany Machado Sardinha
+Jatobá, L. F. C., & Sardinha, S. M. (2024). Escoamento Couette entre placas paralelas: estudo de caso para o ensino de dinâmica de fluidos computacional. 
+Ciência E Natura, 46, e87078. 
+https://doi.org/10.5902/2179460X87078
+https://periodicos.ufsm.br/cienciaenatura/article/view/87078
+
+Este tutorial é dividido em duas etapas:
+1) Usando o CalcMe(WIRIS) para estudar o escoamento Coutte
+2) Usando o OpenFOAM para para estudar o escoamento Coutte
+
+Bolsista: Sthefany Machado Sardinha (2022-2024) 
+
+Descrição dos arquivos:
+- MVF escoamento entre placas planas.wiris: arquivo com memória de cálculo usando o CalcMe/WIRIS (https://calcme.com/a)
+- MVF：escoamento entre placas planas.pdf: arquivo em pfd com a mémória de cálculo.
+
 
 Veja descrição completa do tutorial no arquivo pdf.
-
 Vídeo em: https://youtu.be/82HNczZsl_A
 
 Os arquivos do diretório RE-10 foram testados com a distribuição (openfoam.org):
