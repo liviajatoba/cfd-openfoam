@@ -10,12 +10,10 @@ Este tutorial é dividido em duas etapas:
 Bolsista: Sthefany Machado Sardinha (2022-2024) 
 
 Descrição dos arquivos:
-- MVF escoamento entre placas planas.wiris: arquivo com memória de cálculo usando o CalcMe/WIRIS (https://calcme.com/a)
+- MFV_1D_Difusivo_PP_Couette.pdf: tutorial da solução usando o CalcMe/WIRIS  (https://calcme.com/a)
+- MVF escoamento entre placas planas.wiris: arquivo com memória de cálculo usando o CalcMe
 - MVF：escoamento entre placas planas.pdf: arquivo em pfd com a mémória de cálculo.
-
-
-Veja descrição completa do tutorial no arquivo pdf.
-Vídeo em: https://youtu.be/82HNczZsl_A
+- OF_PP_Couette.pdf: tutorial usando o OpenFOAM. Vídeo em: https://youtu.be/82HNczZsl_A
 
 Os arquivos do diretório RE-10 foram testados com a distribuição (openfoam.org):
 	- openfoam10
