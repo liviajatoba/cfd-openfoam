@@ -1,0 +1,31 @@
+//Dados para Reynolds = 2h*Umed/mu = 20
+//Umax = 1.5 m/s
+//dP/dx = -0.3 Pa/m
+//mu = 0.1 Pa.s
+
+//Velocidade média na entrada
+Umed 1;
+
+//Distancia entre o centro do canal e a parede
+hCanal 1;
+//Numero de divisões y
+nY	50;
+
+//Viscosidade cinemática para Re = 20
+VisCin	0.1;
+
+//Comprimento do canal em x
+LCanal 5;
+//Numero de divisões em x
+nX	500;
+
+//Seção do canal em z
+zCanal 0.5;
+meiozCanal #calc "0.5*$zCanal";
+
+//Dados para coleta dos perfis de velocidade
+umLCanal #calc "0.1*$LCanal";
+doisLCanal #calc "0.2*$LCanal";
+tresLCanal #calc "0.3*$LCanal";
+finalLCanal #calc "0.9*$LCanal";
+
