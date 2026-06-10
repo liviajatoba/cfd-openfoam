@@ -1,0 +1,16 @@
+Este tutorial é dividido em duas etapas:
+1) Usando o CalcMe(WIRIS) para estudar o escoamento Poiselle Laminar entre placas planas
+2) Usando o OpenFOAM para para estudar o escoamento Poiselle Laminar entre placas planas
+
+Bolsistas: 
+Sthefany Machado Sardinha (2022-2024) 
+Ronaldo Medeiros da Silva Neto
+
+Descrição dos arquivos:
+
+Os arquivos do diretório RE-10 foram testados com a distribuição (openfoam.org):
+	- openfoam10
+
+Publicações
+
+
