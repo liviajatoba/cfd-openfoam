@@ -16,7 +16,7 @@ FoamFile
 
 
 xCanal 0.4;
-dCanal 0.1;
+hCanal 0.1;
 zCanal 0.1;
 nY	5;
 
@@ -28,12 +28,12 @@ vertices
 (
     (0 		0   		0)		//v0
     ($xCanal 	0   		0)		//v1
-    ($xCanal 	$dCanal 	0)		//v2
-    (0 		$dCanal 	0)		//v3
+    ($xCanal 	$hCanal 	0)		//v2
+    (0 		$hCanal 	0)		//v3
     (0 		0   		$zCanal)	//v4
     ($xCanal 	0   		$zCanal)	//v5
-    ($xCanal 	$dCanal 	$zCanal)	//v6
-    (0 		$dCanal 	$zCanal)	//v7
+    ($xCanal 	$hCanal 	$zCanal)	//v6
+    (0 		$hCanal 	$zCanal)	//v7
 );
 
 blocks
