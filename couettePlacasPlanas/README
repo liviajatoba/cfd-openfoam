@@ -1,8 +1,3 @@
-Jatobá, L. F. C., & Sardinha, S. M. (2024). Escoamento Couette entre placas paralelas: estudo de caso para o ensino de dinâmica de fluidos computacional. 
-Ciência E Natura, 46, e87078. 
-https://doi.org/10.5902/2179460X87078
-https://periodicos.ufsm.br/cienciaenatura/article/view/87078
-
 Este tutorial é dividido em duas etapas:
 1) Usando o CalcMe(WIRIS) para estudar o escoamento Coutte
 2) Usando o OpenFOAM para para estudar o escoamento Coutte
@@ -17,3 +12,15 @@ Descrição dos arquivos:
 
 Os arquivos do diretório RE-10 foram testados com a distribuição (openfoam.org):
 	- openfoam10
+
+Publicações
+
+Jatobá, L. F. C., & Sardinha, S. M. (2024). Escoamento Couette entre placas paralelas: estudo de caso para o ensino de dinâmica de fluidos computacional. 
+Ciência E Natura, 46, e87078. 
+https://doi.org/10.5902/2179460X87078
+https://periodicos.ufsm.br/cienciaenatura/article/view/87078
+
+JATOBÁ, LÍVIA F. C.; SARDINHA, S. M. . ESCOAMENTO ENTRE PLACAS PLANAS COMO CASO BASE PARA O ENSINO DE DINÂMICA DOS FLUIDOS COMPUTACIONAL: 
+PARTE I - SOLUÇÃO USANDO O CALCME. In: XXVI Encontro Nacional de Modelagem Computacional, 2023, Nova Friburgo. 
+Anais do Encontro Nacional de Modelagem Computacional e Encontro de Ciência e Tecnologia dos Materiais., 2023.
+https://static.even3.com/anais/705253.pdf?v=639166950610519595
